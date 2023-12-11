@@ -73,4 +73,13 @@ The option _--count_ prints a table with the number of all the different paths t
     1        9       41      129      321      681     1289
     1       11       61      231      681     1683     3653
     1       13       85      377     1289     3653     8989
-    
+
+The following links offer more information about each type:
+* java LatticePath --nopass --nodiag M N
+  https://en.wikipedia.org/wiki/Catalan's_triangle and https://oeis.org/A009766
+* java LatticePath --pass --nodiag M N
+  https://en.wikipedia.org/wiki/Pascal%27s_triangle and https://oeis.org/A007318
+* java LatticePath --nopass --diag M N
+  https://en.wikipedia.org/wiki/Schr%C3%B6der_number and https://oeis.org/A033877
+* java LatticePath --pass --diag M N
+  https://en.wikipedia.org/wiki/Delannoy_number and https://oeis.org/A008288
